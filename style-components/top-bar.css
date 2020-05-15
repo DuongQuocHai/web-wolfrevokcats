@@ -102,6 +102,7 @@
 .search-bar>i {
     color: #bbc0c4;
     margin-right: 5px;
+    font-size: 17px;
 }
 
 .search-bar>input {
@@ -124,7 +125,7 @@
 
 .ctas>li {
     border: 1px solid #7aa7c7;
-    padding: 8px;
+    padding: 8px 10px;
     border-radius: 3px;
     cursor: pointer;
     transition: all 0.2s;
