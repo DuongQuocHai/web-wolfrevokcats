@@ -8,6 +8,7 @@
     box-shadow: 0 0 2px 0 rgba(41, 40, 40, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;
     height: 47px;
+    z-index: 999;
 }
 
 .main {
