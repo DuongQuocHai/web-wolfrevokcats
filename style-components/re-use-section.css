@@ -35,3 +35,10 @@
     margin-bottom: 48px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.btn {
+    background-color: #f48024;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 3px;
+}

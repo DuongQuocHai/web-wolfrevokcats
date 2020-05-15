@@ -36,17 +36,14 @@
 }
 
 .option-developers .box-option-developers .btn-qa {
-    background-color: #2b2d6e;
+    background-color: #f48024;
     color: white;
     padding: 12px 24px;
     border-radius: 3px;
 }
 
-.option-developers .box-option-developers:nth-child(2)>a {
-    background-color: #f48024;
-}
-
-.option-developers .box-option-developers:nth-child(odd) {
+.option-developers .box-option-developers:nth-child(odd)>a {
+    background-color: #2b2d6e;
     margin-top: 64px;
 }
 
