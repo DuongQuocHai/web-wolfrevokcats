@@ -1,0 +1,31 @@
+.section-event {
+    background-color: #f7f6f9;
+    padding: 128px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section-event .box-event:first-child {
+    margin-right: 20px;
+}
+
+.box-event {
+    max-width: 495px;
+    box-sizing: border-box;
+}
+
+.box-event>img {
+    width: 76px;
+}
+
+.box-event>h4 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.box-event>p {
+    font-size: 15px;
+    margin-bottom: 24px;
+}

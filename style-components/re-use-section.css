@@ -41,4 +41,6 @@
     color: white;
     padding: 12px 24px;
     border-radius: 3px;
+    display: block;
+    width: fit-content;
 }
