@@ -1,0 +1,41 @@
+.section-job {
+    padding: 128px 0;
+    background-color: #e1ecf4;
+    position: relative;
+}
+
+.section-job>img {
+    width: 51px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.wap-box-job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-job {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: white;
+    border-radius: 7px;
+    width: 17%;
+    box-shadow: 0px 0px 31px -12px rgba(189, 195, 199, 1);
+}
+
+.box-job>img {
+    width: 50px;
+    margin-right: 16px;
+}
+
+.box-job .para-section {
+    color: black;
+}
+
+.wap-box-job>.font-Pro {
+    height: fit-content;
+}
