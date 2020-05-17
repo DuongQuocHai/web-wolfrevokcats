@@ -10,6 +10,30 @@ body {
     padding: 0;
 }
 
+.wap-content {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.site-footer {
+    height: 400px;
+    background-color: #242729;
+}
+
 a {
     text-decoration: none;
 }
@@ -28,15 +52,4 @@ a {
 
 .mr-top-64 {
     margin-top: 64px;
-}
-
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-.content {
-    margin: 0 auto;
-    width: 90%;
-    box-sizing: border-box;
 }

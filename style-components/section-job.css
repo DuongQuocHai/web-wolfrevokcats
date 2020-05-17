@@ -4,11 +4,15 @@
     position: relative;
 }
 
+.section-job>.wap-content>h2 {
+    width: 100%;
+}
+
 .section-job>img {
     width: 51px;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 5%;
+    bottom: -4px;
 }
 
 .wap-box-job {

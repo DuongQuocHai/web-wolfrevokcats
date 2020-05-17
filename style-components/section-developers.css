@@ -3,7 +3,7 @@
     padding: 64px 0;
 }
 
-.container-section>p>a {
+.container-section>.wap-content>p>a {
     font-size: 17px;
 }
 
@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 310px;
+    width: 26.5%;
     padding: 32px;
     box-sizing: border-box;
     border-radius: 7px;
@@ -32,7 +32,7 @@
 
 .option-developers .box-option-developers>p {
     text-align: center;
-    margin: 0 0 24px 0;
+    margin: 0 0 30px 0;
 }
 
 .option-developers .box-option-developers .btn-qa {
@@ -44,6 +44,9 @@
 
 .option-developers .box-option-developers:nth-child(odd)>a {
     background-color: #2b2d6e;
+}
+
+.option-developers .box-option-developers:nth-child(odd) {
     margin-top: 64px;
 }
 
