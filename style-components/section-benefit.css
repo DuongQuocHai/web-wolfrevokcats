@@ -10,7 +10,12 @@
 }
 
 .box-benefit {
-    max-width: 24%;
+    width: 23%;
+}
+
+.box-benefit>img {
+    width: 175px;
+    height: 151px;
 }
 
 .box-benefit>h4 {
