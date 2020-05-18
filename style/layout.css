@@ -30,8 +30,8 @@ body {
 }
 
 .site-footer {
-    height: 400px;
     background-color: #242729;
+    width: 100%;
 }
 
 a {
