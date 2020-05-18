@@ -16,6 +16,7 @@
     height: 47px;
     width: 100%;
     max-width: 1280px;
+    position: relative;
 }
 
 .main {
@@ -25,10 +26,11 @@
     box-sizing: border-box;
 }
 
-.main img {
+.main .logo {
     width: 150px;
     height: 32px;
     padding: 5px 10px 10px 10px;
+    cursor: pointer;
 }
 
 .main img:hover {
@@ -43,6 +45,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.xmenu .line1 {
+    transform: rotate(-45deg) translate(-1px, 6px);
+}
+
+.xmenu .line2 {
+    opacity: 0;
+}
+
+.xmenu .line3 {
+    transform: rotate(45deg) translate(-1px, -6px);
 }
 
 .burger:hover {

@@ -17,3 +17,21 @@ function showSlides() {
     box[slideIndex - 1].className += " box-qa-active";
     setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+
+var btnShowMenu = document.getElementById('btn-show-menu');
+btnShowMenu.addEventListener('click', showmenu);
+
+function showmenu() {
+    var x = document.getElementById('sub-menu');
+    if (x.className === "sub-menu") {
+
+        x.className += " sub-menu-active ";
+    } else {
+        x.className = "sub-menu";
+    }
+    if (btnShowMenu.className === "burger") {
+        btnShowMenu.className += " xmenu";
+    } else {
+        btnShowMenu.className = "burger";
+    }
+}
