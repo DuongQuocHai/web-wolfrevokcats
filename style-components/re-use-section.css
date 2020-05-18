@@ -54,3 +54,7 @@
     text-align: center;
     cursor: pointer;
 }
+
+.mr-32 {
+    margin-right: 32px;
+}

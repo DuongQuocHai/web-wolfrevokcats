@@ -6,6 +6,7 @@
     max-width: 1280px;
     padding: 32px 12px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .wap-content-footer ul li {
@@ -28,6 +29,7 @@
 
 .col-nav {
     max-width: 20%;
+    flex-wrap: wrap;
 }
 
 .col-nav>.title {
@@ -67,6 +69,8 @@
 .site-footer-copyright .list-item {
     display: flex;
     justify-content: flex-start;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .list-item>li {

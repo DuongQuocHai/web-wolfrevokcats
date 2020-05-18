@@ -15,10 +15,20 @@
     bottom: -4px;
 }
 
+.section-job .titles-section {
+    text-align: left;
+}
+
 .wap-box-job {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.wap-2box-job {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .box-job {
@@ -27,7 +37,7 @@
     padding: 16px;
     background-color: white;
     border-radius: 7px;
-    width: 17%;
+    width: 100%;
     box-shadow: 0px 0px 31px -12px rgba(189, 195, 199, 1);
 }
 
@@ -40,6 +50,6 @@
     color: black;
 }
 
-.wap-box-job>.font-Pro {
+.wap-2box-job>.font-Pro {
     height: fit-content;
 }

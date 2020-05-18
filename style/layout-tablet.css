@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px) {
+    .box-businesses {
+        flex-direction: column;
+    }
+    .wap-box-job {
+        flex-direction: column;
+    }
+    .wap-2box-job {
+        margin: 0 0 32px 0;
+    }
+    .section-job .titles-section {
+        text-align: center;
+    }
+}
