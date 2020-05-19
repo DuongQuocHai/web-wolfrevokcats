@@ -2,6 +2,7 @@
     padding: 128px 0;
     background-color: #e1ecf4;
     position: relative;
+    box-sizing: border-box;
 }
 
 .section-job>.wap-content>h2 {
@@ -23,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .wap-2box-job {

@@ -10,7 +10,7 @@
 }
 
 .box-businesses {
-    max-width: 31%;
+    width: 31%;
     display: flex;
     align-items: center;
     padding: 32px;

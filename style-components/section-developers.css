@@ -13,7 +13,7 @@
     justify-content: space-around;
 }
 
-.option-developers .box-option-developers {
+.box-option-developers {
     display: flex;
     flex-direction: column;
     align-items: center;

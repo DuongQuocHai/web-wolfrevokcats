@@ -26,6 +26,7 @@
     font-family: 'Roboto Slab', serif;
     margin: 0 0 24px 0;
     font-weight: bold;
+    max-width: 50%;
 }
 
 .line-section {
@@ -38,7 +39,7 @@
 
 .content-section {
     font-size: 17px;
-    width: 500px;
+    width: 46%;
     text-align: center;
     margin-bottom: 48px;
     font-family: 'Source Sans Pro', sans-serif;
