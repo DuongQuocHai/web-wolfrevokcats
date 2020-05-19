@@ -1,10 +1,13 @@
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 600px) {
     .titles-section {
         font-size: 26px;
         max-width: 90%;
     }
     .para-section {
         font-size: 15px;
+    }
+    .txt-logo {
+        display: none;
     }
     .choose-option {
         display: flex;
@@ -117,15 +120,5 @@
     }
     .site-footer-logo {
         display: none;
-    }
-    .site-footer-nav {
-        width: 100%;
-    }
-    .wap-content-footer {
-        flex-wrap: wrap;
-    }
-    .site-footer-copyright {
-        width: 100%;
-        margin-top: 20px;
     }
 }

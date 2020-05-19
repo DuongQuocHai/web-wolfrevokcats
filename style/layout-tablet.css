@@ -11,4 +11,24 @@
     .section-job .titles-section {
         text-align: center;
     }
+    .search-bar {
+        display: none;
+    }
+    .list-reset>li:nth-child(2),
+    .list-reset>li:nth-child(3) {
+        display: none;
+    }
+    .list-reset {
+        flex-grow: 1;
+    }
+    .site-footer-nav {
+        width: 100%;
+    }
+    .wap-content-footer {
+        flex-wrap: wrap;
+    }
+    .site-footer-copyright {
+        width: 100%;
+        margin-top: 20px;
+    }
 }

@@ -26,15 +26,30 @@
     box-sizing: border-box;
 }
 
-.main .logo {
-    width: 150px;
-    height: 32px;
-    padding: 5px 10px 10px 10px;
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 8px;
     cursor: pointer;
 }
 
-.main img:hover {
+.logo:hover {
     background-color: #ecf0f1;
+}
+
+.txt-logo {
+    margin-left: 5px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.txt-logo>b {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .burger {
@@ -86,6 +101,7 @@
     color: #747d8c;
     border-radius: 1000px;
     margin: 0 2px;
+    width: fit-content;
 }
 
 .list-reset>li:hover {
