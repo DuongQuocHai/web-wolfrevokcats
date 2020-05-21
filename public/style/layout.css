@@ -37,23 +37,3 @@ body {
     background-color: #242729;
     width: 100%;
 }
-
-a {
-    text-decoration: none;
-}
-
-.font-Robo {
-    font-family: 'Roboto Slab', serif;
-}
-
-.font-Pro {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.size-15 {
-    font-size: 15px;
-}
-
-.mr-top-64 {
-    margin-top: 64px;
-}

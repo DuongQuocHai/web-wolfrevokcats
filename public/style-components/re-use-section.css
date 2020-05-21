@@ -6,6 +6,26 @@
     font-size: 17px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.font-Robo {
+    font-family: 'Roboto Slab', serif;
+}
+
+.font-Pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.size-15 {
+    font-size: 15px;
+}
+
+.mr-top-64 {
+    margin-top: 64px;
+}
+
 .para-section {
     font-size: 17px;
     font-family: 'Source Sans Pro', sans-serif;
